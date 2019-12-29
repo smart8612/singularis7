@@ -3,7 +3,7 @@ using namespace std;
 
 typedef vector<int> vi;
 
-void BubbleSort(vi &vec) {
+void InsertionSort(vi &vec) {
 	for (int i=0; i<vec.size(); i++) {
 		for (int j=0; j<vec.size()-i-1; j++) {
 			cout << vec[j] << ' ' << vec[j+1] << '\n';
@@ -28,7 +28,7 @@ int main() {
 	cin.tie(0);
 	
 	vi vec = {1, 10, 5, 8, 7, 6, 4, 3, 2, 9};
-	BubbleSort(vec);
+	InsertionSort(vec);
 	printArray(vec);
 	
 	return 0;
