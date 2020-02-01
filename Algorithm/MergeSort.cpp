@@ -12,7 +12,7 @@ void merge(vi &vec, vi &sorted, int start, int middle, int end) {
         sorted[idx++] = (vec[i] <= vec[j])? vec[i++] : vec[j++];
     }
     
-	int k = (i > middle)?  j : i;
+    int k = (i > middle)?  j : i;
     while (k <= end) {
         sorted[idx++] = vec[k++];
     }
@@ -45,8 +45,8 @@ int main() {
     cin.tie(0);
     
     vi vec = {7, 6, 5, 8, 3, 4, 9, 1, 2};
-	int SIZE = vec.size();
-	vi sorted(SIZE);
+    int SIZE = vec.size();
+    vi sorted(SIZE);
     
     mergeSort(vec, sorted, 0, SIZE-1);
     printArray(vec);
