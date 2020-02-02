@@ -34,10 +34,10 @@ int main() {
 	printArray(vec);
 	
 	sort(vec.begin(), vec.end());
-    printArray(vec);
+	printArray(vec);
 	
 	sort(vec.begin(), vec.end(), compare);
-    printArray(vec);
+	printArray(vec);
     
     return 0;
 }

@@ -13,7 +13,7 @@ void printArray(vi &vec) {
 
 int main() {
     ios::sync_with_stdio(0);
-    cin.tie(0);
+	cin.tie(0);
     
     cout << "Default vector status" << '\n';
     vi vec = {9, 2, 31, 1, 2, 51, 7, 1};
