@@ -2,7 +2,6 @@
 using namespace std;
 
 typedef vector<int> vi;
-typedef vector<vi> vii;
 
 int getParent(vi &parent, int node) {
 	if (parent[node] == node) return node;
