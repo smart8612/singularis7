@@ -45,7 +45,7 @@ vi dijkstra(vii &matrix, int start) {
 	
 	pque pq;
 	pq.push(pri(start, 0));
-	distance[start] = true;
+	distance[start] = 0;
 	
 	while(!pq.empty()) {
 		int node = pq.top().first;
