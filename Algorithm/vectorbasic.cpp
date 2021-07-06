@@ -29,5 +29,11 @@ int main()
     v *= polar(1.0, 0.5);
     cout << arg(v) << '\n';
 
+    // Method to calculate cross product between vector a and b;
+    a = {4, 2};
+    b = {1, 2};
+    C pp = (conj(a)*b).Y;
+    cout << pp << '\n';
+
     return 0;
 }
